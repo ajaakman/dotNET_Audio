@@ -10,6 +10,9 @@ namespace dotNET_Audio
     {
         static void Main(string[] args)
         {
+            System.Media.SoundPlayer player = new System.Media.SoundPlayer(@"B:\Music\a.wav");
+            player.Play();
+            while(true) { };
         }
     }
 }
